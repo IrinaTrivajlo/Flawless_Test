@@ -1,0 +1,6 @@
+framework module Pods_FlawlessApp {
+  umbrella header "Pods-FlawlessApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

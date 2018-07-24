@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54DB1A5358F87D834025BFA3 /* Pods_FlawlessApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DEE82834A49BDD727532EB /* Pods_FlawlessApp.framework */; };
+		8C93CF3721061902003F97AF /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C93CF3621061902003F97AF /* MessageCell.m */; };
+		8CC5658621053A5200BC4BBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC5658521053A5200BC4BBD /* AppDelegate.m */; };
+		8CC5658921053A5200BC4BBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC5658821053A5200BC4BBD /* ViewController.m */; };
+		8CC5658C21053A5200BC4BBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC5658A21053A5200BC4BBD /* Main.storyboard */; };
+		8CC5658E21053A5200BC4BBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CC5658D21053A5200BC4BBD /* Assets.xcassets */; };
+		8CC5659121053A5200BC4BBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC5658F21053A5200BC4BBD /* LaunchScreen.storyboard */; };
+		8CC5659421053A5200BC4BBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC5659321053A5200BC4BBD /* main.m */; };
+		8CC5659E21053A5200BC4BBD /* FlawlessAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC5659D21053A5200BC4BBD /* FlawlessAppTests.m */; };
+		8CC565A921053A5200BC4BBD /* FlawlessAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC565A821053A5200BC4BBD /* FlawlessAppUITests.m */; };
+		8CC565B8210543F000BC4BBD /* SocketManagerClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC565B7210543F000BC4BBD /* SocketManagerClass.m */; };
+		E219C9EDCB2762F1E04325DE /* Pods_FlawlessAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15BA296EF5DE570764BA630 /* Pods_FlawlessAppTests.framework */; };
+		EBCB9626EEDE1DE9EF4CE5C6 /* Pods_FlawlessAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A392C2237CE3468D50DC04F /* Pods_FlawlessAppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CC5659A21053A5200BC4BBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CC5657921053A5200BC4BBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CC5658021053A5200BC4BBD;
+			remoteInfo = FlawlessApp;
+		};
+		8CC565A521053A5200BC4BBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CC5657921053A5200BC4BBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CC5658021053A5200BC4BBD;
+			remoteInfo = FlawlessApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01126AF85CF1FEC066B8D663 /* Pods-FlawlessApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlawlessApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlawlessApp/Pods-FlawlessApp.release.xcconfig"; sourceTree = "<group>"; };
+		075ABF621AEC298ED8DF5B5B /* Pods-FlawlessAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlawlessAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlawlessAppUITests/Pods-FlawlessAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E489A14E3C5561889A1DF53 /* Pods-FlawlessAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlawlessAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlawlessAppUITests/Pods-FlawlessAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		303EB76F0E3BDD5D40AE15FC /* Pods-FlawlessAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlawlessAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlawlessAppTests/Pods-FlawlessAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C93CF3521061902003F97AF /* MessageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageCell.h; sourceTree = "<group>"; };
+		8C93CF3621061902003F97AF /* MessageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageCell.m; sourceTree = "<group>"; };
+		8CC5658121053A5200BC4BBD /* FlawlessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlawlessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC5658421053A5200BC4BBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8CC5658521053A5200BC4BBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8CC5658721053A5200BC4BBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8CC5658821053A5200BC4BBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8CC5658B21053A5200BC4BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CC5658D21053A5200BC4BBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CC5659021053A5200BC4BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CC5659221053A5200BC4BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CC5659321053A5200BC4BBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CC5659921053A5200BC4BBD /* FlawlessAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlawlessAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC5659D21053A5200BC4BBD /* FlawlessAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlawlessAppTests.m; sourceTree = "<group>"; };
+		8CC5659F21053A5200BC4BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CC565A421053A5200BC4BBD /* FlawlessAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlawlessAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC565A821053A5200BC4BBD /* FlawlessAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlawlessAppUITests.m; sourceTree = "<group>"; };
+		8CC565AA21053A5200BC4BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CC565B6210543F000BC4BBD /* SocketManagerClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketManagerClass.h; sourceTree = "<group>"; };
+		8CC565B7210543F000BC4BBD /* SocketManagerClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketManagerClass.m; sourceTree = "<group>"; };
+		9A392C2237CE3468D50DC04F /* Pods_FlawlessAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlawlessAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CD8D9F0E7B2010A31EFD4BB /* Pods-FlawlessAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlawlessAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlawlessAppTests/Pods-FlawlessAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C0BF62722C3E84BF557CBDCD /* Pods-FlawlessApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlawlessApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlawlessApp/Pods-FlawlessApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D15BA296EF5DE570764BA630 /* Pods_FlawlessAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlawlessAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1DEE82834A49BDD727532EB /* Pods_FlawlessApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlawlessApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CC5657E21053A5200BC4BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54DB1A5358F87D834025BFA3 /* Pods_FlawlessApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC5659621053A5200BC4BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E219C9EDCB2762F1E04325DE /* Pods_FlawlessAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC565A121053A5200BC4BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBCB9626EEDE1DE9EF4CE5C6 /* Pods_FlawlessAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86B3845C798111CE5CCD9B13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1DEE82834A49BDD727532EB /* Pods_FlawlessApp.framework */,
+				D15BA296EF5DE570764BA630 /* Pods_FlawlessAppTests.framework */,
+				9A392C2237CE3468D50DC04F /* Pods_FlawlessAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BACE5217809F33A218603A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0BF62722C3E84BF557CBDCD /* Pods-FlawlessApp.debug.xcconfig */,
+				01126AF85CF1FEC066B8D663 /* Pods-FlawlessApp.release.xcconfig */,
+				303EB76F0E3BDD5D40AE15FC /* Pods-FlawlessAppTests.debug.xcconfig */,
+				9CD8D9F0E7B2010A31EFD4BB /* Pods-FlawlessAppTests.release.xcconfig */,
+				075ABF621AEC298ED8DF5B5B /* Pods-FlawlessAppUITests.debug.xcconfig */,
+				0E489A14E3C5561889A1DF53 /* Pods-FlawlessAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8CC5657821053A5200BC4BBD = {
+			isa = PBXGroup;
+			children = (
+				8CC5658321053A5200BC4BBD /* FlawlessApp */,
+				8CC5659C21053A5200BC4BBD /* FlawlessAppTests */,
+				8CC565A721053A5200BC4BBD /* FlawlessAppUITests */,
+				8CC5658221053A5200BC4BBD /* Products */,
+				8BACE5217809F33A218603A5 /* Pods */,
+				86B3845C798111CE5CCD9B13 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8CC5658221053A5200BC4BBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CC5658121053A5200BC4BBD /* FlawlessApp.app */,
+				8CC5659921053A5200BC4BBD /* FlawlessAppTests.xctest */,
+				8CC565A421053A5200BC4BBD /* FlawlessAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CC5658321053A5200BC4BBD /* FlawlessApp */ = {
+			isa = PBXGroup;
+			children = (
+				8CC5658421053A5200BC4BBD /* AppDelegate.h */,
+				8CC5658521053A5200BC4BBD /* AppDelegate.m */,
+				8CC5658721053A5200BC4BBD /* ViewController.h */,
+				8CC5658821053A5200BC4BBD /* ViewController.m */,
+				8CC565B6210543F000BC4BBD /* SocketManagerClass.h */,
+				8CC565B7210543F000BC4BBD /* SocketManagerClass.m */,
+				8C93CF3521061902003F97AF /* MessageCell.h */,
+				8C93CF3621061902003F97AF /* MessageCell.m */,
+				8CC5658A21053A5200BC4BBD /* Main.storyboard */,
+				8CC5658D21053A5200BC4BBD /* Assets.xcassets */,
+				8CC5658F21053A5200BC4BBD /* LaunchScreen.storyboard */,
+				8CC5659221053A5200BC4BBD /* Info.plist */,
+				8CC5659321053A5200BC4BBD /* main.m */,
+			);
+			path = FlawlessApp;
+			sourceTree = "<group>";
+		};
+		8CC5659C21053A5200BC4BBD /* FlawlessAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CC5659D21053A5200BC4BBD /* FlawlessAppTests.m */,
+				8CC5659F21053A5200BC4BBD /* Info.plist */,
+			);
+			path = FlawlessAppTests;
+			sourceTree = "<group>";
+		};
+		8CC565A721053A5200BC4BBD /* FlawlessAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CC565A821053A5200BC4BBD /* FlawlessAppUITests.m */,
+				8CC565AA21053A5200BC4BBD /* Info.plist */,
+			);
+			path = FlawlessAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CC5658021053A5200BC4BBD /* FlawlessApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC565AD21053A5200BC4BBD /* Build configuration list for PBXNativeTarget "FlawlessApp" */;
+			buildPhases = (
+				AFEA5578D25ECC6A11280E59 /* [CP] Check Pods Manifest.lock */,
+				8CC5657D21053A5200BC4BBD /* Sources */,
+				8CC5657E21053A5200BC4BBD /* Frameworks */,
+				8CC5657F21053A5200BC4BBD /* Resources */,
+				61EA1768833DDA4EDD930B32 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlawlessApp;
+			productName = FlawlessApp;
+			productReference = 8CC5658121053A5200BC4BBD /* FlawlessApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CC5659821053A5200BC4BBD /* FlawlessAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC565B021053A5200BC4BBD /* Build configuration list for PBXNativeTarget "FlawlessAppTests" */;
+			buildPhases = (
+				CA0C1F3855A2F00C27D319B9 /* [CP] Check Pods Manifest.lock */,
+				8CC5659521053A5200BC4BBD /* Sources */,
+				8CC5659621053A5200BC4BBD /* Frameworks */,
+				8CC5659721053A5200BC4BBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CC5659B21053A5200BC4BBD /* PBXTargetDependency */,
+			);
+			name = FlawlessAppTests;
+			productName = FlawlessAppTests;
+			productReference = 8CC5659921053A5200BC4BBD /* FlawlessAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CC565A321053A5200BC4BBD /* FlawlessAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC565B321053A5200BC4BBD /* Build configuration list for PBXNativeTarget "FlawlessAppUITests" */;
+			buildPhases = (
+				647C00B6113ABD593D12B1A1 /* [CP] Check Pods Manifest.lock */,
+				8CC565A021053A5200BC4BBD /* Sources */,
+				8CC565A121053A5200BC4BBD /* Frameworks */,
+				8CC565A221053A5200BC4BBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CC565A621053A5200BC4BBD /* PBXTargetDependency */,
+			);
+			name = FlawlessAppUITests;
+			productName = FlawlessAppUITests;
+			productReference = 8CC565A421053A5200BC4BBD /* FlawlessAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CC5657921053A5200BC4BBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = trivajlo;
+				TargetAttributes = {
+					8CC5658021053A5200BC4BBD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8CC5659821053A5200BC4BBD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8CC5658021053A5200BC4BBD;
+					};
+					8CC565A321053A5200BC4BBD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8CC5658021053A5200BC4BBD;
+					};
+				};
+			};
+			buildConfigurationList = 8CC5657C21053A5200BC4BBD /* Build configuration list for PBXProject "FlawlessApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CC5657821053A5200BC4BBD;
+			productRefGroup = 8CC5658221053A5200BC4BBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CC5658021053A5200BC4BBD /* FlawlessApp */,
+				8CC5659821053A5200BC4BBD /* FlawlessAppTests */,
+				8CC565A321053A5200BC4BBD /* FlawlessAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CC5657F21053A5200BC4BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC5659121053A5200BC4BBD /* LaunchScreen.storyboard in Resources */,
+				8CC5658E21053A5200BC4BBD /* Assets.xcassets in Resources */,
+				8CC5658C21053A5200BC4BBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC5659721053A5200BC4BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC565A221053A5200BC4BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61EA1768833DDA4EDD930B32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FlawlessApp/Pods-FlawlessApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlawlessApp/Pods-FlawlessApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		647C00B6113ABD593D12B1A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlawlessAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFEA5578D25ECC6A11280E59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlawlessApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA0C1F3855A2F00C27D319B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlawlessAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CC5657D21053A5200BC4BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C93CF3721061902003F97AF /* MessageCell.m in Sources */,
+				8CC5658921053A5200BC4BBD /* ViewController.m in Sources */,
+				8CC565B8210543F000BC4BBD /* SocketManagerClass.m in Sources */,
+				8CC5659421053A5200BC4BBD /* main.m in Sources */,
+				8CC5658621053A5200BC4BBD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC5659521053A5200BC4BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC5659E21053A5200BC4BBD /* FlawlessAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC565A021053A5200BC4BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC565A921053A5200BC4BBD /* FlawlessAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CC5659B21053A5200BC4BBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CC5658021053A5200BC4BBD /* FlawlessApp */;
+			targetProxy = 8CC5659A21053A5200BC4BBD /* PBXContainerItemProxy */;
+		};
+		8CC565A621053A5200BC4BBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CC5658021053A5200BC4BBD /* FlawlessApp */;
+			targetProxy = 8CC565A521053A5200BC4BBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CC5658A21053A5200BC4BBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CC5658B21053A5200BC4BBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CC5658F21053A5200BC4BBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CC5659021053A5200BC4BBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CC565AB21053A5200BC4BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8CC565AC21053A5200BC4BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CC565AE21053A5200BC4BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0BF62722C3E84BF557CBDCD /* Pods-FlawlessApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C97U5X8G6A;
+				INFOPLIST_FILE = FlawlessApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trivajlo.FlawlessApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CC565AF21053A5200BC4BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01126AF85CF1FEC066B8D663 /* Pods-FlawlessApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C97U5X8G6A;
+				INFOPLIST_FILE = FlawlessApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trivajlo.FlawlessApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CC565B121053A5200BC4BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 303EB76F0E3BDD5D40AE15FC /* Pods-FlawlessAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C97U5X8G6A;
+				INFOPLIST_FILE = FlawlessAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trivajlo.FlawlessAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlawlessApp.app/FlawlessApp";
+			};
+			name = Debug;
+		};
+		8CC565B221053A5200BC4BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CD8D9F0E7B2010A31EFD4BB /* Pods-FlawlessAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C97U5X8G6A;
+				INFOPLIST_FILE = FlawlessAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trivajlo.FlawlessAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlawlessApp.app/FlawlessApp";
+			};
+			name = Release;
+		};
+		8CC565B421053A5200BC4BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 075ABF621AEC298ED8DF5B5B /* Pods-FlawlessAppUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C97U5X8G6A;
+				INFOPLIST_FILE = FlawlessAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trivajlo.FlawlessAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlawlessApp;
+			};
+			name = Debug;
+		};
+		8CC565B521053A5200BC4BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E489A14E3C5561889A1DF53 /* Pods-FlawlessAppUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C97U5X8G6A;
+				INFOPLIST_FILE = FlawlessAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trivajlo.FlawlessAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlawlessApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CC5657C21053A5200BC4BBD /* Build configuration list for PBXProject "FlawlessApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC565AB21053A5200BC4BBD /* Debug */,
+				8CC565AC21053A5200BC4BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC565AD21053A5200BC4BBD /* Build configuration list for PBXNativeTarget "FlawlessApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC565AE21053A5200BC4BBD /* Debug */,
+				8CC565AF21053A5200BC4BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC565B021053A5200BC4BBD /* Build configuration list for PBXNativeTarget "FlawlessAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC565B121053A5200BC4BBD /* Debug */,
+				8CC565B221053A5200BC4BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC565B321053A5200BC4BBD /* Build configuration list for PBXNativeTarget "FlawlessAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC565B421053A5200BC4BBD /* Debug */,
+				8CC565B521053A5200BC4BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CC5657921053A5200BC4BBD /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_FlawlessAppUITests {
+  umbrella header "Pods-FlawlessAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - Socket.IO-Client-Swift (9.0.1)
+
+DEPENDENCIES:
+  - Socket.IO-Client-Swift (~> 9.0.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Socket.IO-Client-Swift
+
+SPEC CHECKSUMS:
+  Socket.IO-Client-Swift: 60b71a684692a312c4aba3ef52f186e0e254e868
+
+PODFILE CHECKSUM: 6cc0448f3c56b0fc50845ce4ef73865dbe569d93
+
+COCOAPODS: 1.5.0
